@@ -41,6 +41,11 @@
     - [Shortcut: Toggle line comment](#shortcut-toggle-line-comment)
 - [Workspace settings](#workspace-settings)
   - [Change the workspace settings](#change-the-workspace-settings)
+- [Language server](#language-server)
+  - [Type on hover](#type-on-hover)
+  - [Docs on hover](#docs-on-hover)
+  - [Go to the definition](#go-to-the-definition)
+  - [Rename a symbol](#rename-a-symbol)
 
 > [!IMPORTANT]
 > The first [keyboard shortcut](#keyboard-shortcuts) is always for `Linux`.
@@ -386,3 +391,13 @@ Here are some [workspace settings](#workspace-settings) that you can change:
 - [`files.autoSave`](https://code.visualstudio.com/docs/editing/codebasics#_save-auto-save) - Enabled to save your work if VS Code closes;
 - [`editor.formatOnSave`](https://code.visualstudio.com/docs/editing/codebasics#_formatting) - Enabled to run formatters when you press `Ctrl+S` (or `Cmd+S` on `macOS`) to save code.
 - `Markdown` editor and preview [synchronization settings](https://code.visualstudio.com/docs/languages/markdown#_editor-and-preview-synchronization) - Disabled for smoother scrolling of the editor and the preview.
+
+## Language server
+
+### Type on hover
+
+### Docs on hover
+
+### Go to the definition
+
+### Rename a symbol
