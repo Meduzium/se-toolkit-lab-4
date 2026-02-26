@@ -200,7 +200,7 @@
 
 ### 1.8. (UPD) (`Windows` only) Set the default shell
 
-1. [Check and set the current shell in the `VS Code Terminal`](../../wiki/vs-code.md#check-the-current-shell-in-the-vs-code-terminal).
+1. [Check and set the default shell in the `VS Code Terminal`](../../wiki/vs-code.md#check-the-current-shell-in-the-vs-code-terminal).
 
 ### 1.9. Continue creating a VM
 
