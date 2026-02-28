@@ -26,7 +26,7 @@ function App() {
     setError(null)
 
     fetch('/items', {
-      headers: { Authorization: `Bearer ${token}` },
+      headers: { Authorization: `Bearer ${token} ! ! AB CD EF GH` },
     })
       .then((res) => {
         if (!res.ok) throw new Error(`HTTP ${res.status}`)
