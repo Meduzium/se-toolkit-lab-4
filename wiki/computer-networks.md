@@ -11,6 +11,8 @@
 - [Host](#host)
   - [Hostname](#hostname)
     - [`localhost`](#localhost)
+    - [`127.0.0.1`](#127001)
+    - [`0.0.0.0`](#0000)
   - [Remote host](#remote-host)
 - [Port](#port)
   - [Port number](#port-number)
@@ -86,6 +88,18 @@ Examples: [`localhost`](#localhost), `my-server`, [`vm.innopolis.university`](./
 It resolves to the loopback [IP address](#ip-address) `127.0.0.1`.
 
 Connections to `localhost` never leave the host — they are handled entirely within the [operating system](./operating-system.md).
+
+#### `127.0.0.1`
+
+`127.0.0.1` is the loopback [IP address](#ip-address). [`localhost`](#localhost) resolves to this address.
+
+#### `0.0.0.0`
+
+`0.0.0.0` is a special [IP address](#ip-address) that means "all network interfaces on this [host](#host)."
+
+When a [process](./operating-system.md#process) [listens on a port](#listen-on-a-port) bound to `0.0.0.0`, it accepts connections from any network interface — including [`localhost`](#localhost) and external networks. In contrast, binding to `127.0.0.1` restricts connections to the local host only.
+
+This is commonly used to make a service accessible from outside the [machine](#machine) (e.g., from your laptop to a [virtual machine](./vm.md#what-is-a-vm)).
 
 ### Remote host
 
